@@ -17,7 +17,7 @@ def main():
     主函数：演示完整的MFCC特征提取和数据预处理流程
     """
     # 请根据实际情况修改路径
-    root_path = "E:\作业\硕士\ASVspoof_2019\LA\LA"  # 数据集根目录
+    root_path = " "  # 数据集根目录
     
     # 创建数据加载器
     data_loader = ASVspoof2019LADataset(root_path)
@@ -359,4 +359,5 @@ if __name__ == "__main__":
         print("  - evaluation_results_before_tuning.joblib (调优前评估结果)")
         print("  - evaluation_results_after_tuning.joblib (调优后评估结果)")
     else:
+
         print("流程执行失败，请检查错误信息。")
