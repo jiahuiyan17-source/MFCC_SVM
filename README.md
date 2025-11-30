@@ -427,3 +427,7 @@ Fitting 5 folds for each of 15 candidates, totalling 75 fits
  F1分数: 0.8979
 
 评估结果已保存到: evaluation_results_after_tuning.joblib
+
+## 弊端
+
+但由于SVM并不适合大量的数据集，而且作为机器学习的方法有一定局限性，所以导致准确率和EER并没有特别优秀。
